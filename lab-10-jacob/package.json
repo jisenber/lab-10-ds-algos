@@ -1,0 +1,19 @@
+{
+  "name": "lab-10-jacob",
+  "version": "1.0.0",
+  "description": "algorithms and data-structure implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Jacob Isenberg",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.12.2",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-mocha": "^3.0.1",
+    "mocha": "^3.2.0"
+  }
+}
