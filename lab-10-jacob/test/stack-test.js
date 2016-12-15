@@ -12,7 +12,9 @@ describe('stack module', function() {
     it('should throw error when max size exceeded', function() {
       let st = new Stack(1);
       st.push(25);
-      expect(new Error).to.be.an('error');
+      expect(function() {
+        st.push(5);
+      }).to.throw(Error);
     });
     it('should identify the former top node as the previous node', function() {
       let st = new Stack();
